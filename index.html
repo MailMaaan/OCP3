@@ -4,8 +4,9 @@
 <head>
     <meta charset=utf-8>
     <title>ohmyfood</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -18,7 +19,7 @@
     </header>
     <nav>
         <div class="location">
-            <p><i class="fas fa-map-marker-alt"></i> Paris, Belleville</p>
+            <p class="location--text"><i class="fas fa-map-marker-alt"></i> Paris, Belleville</p>
         </div>
         <div class="explore">
             <div class="explore--title">
@@ -35,51 +36,62 @@
     <div class="instruction">
         <h1>How it works</h1>
         <div class="instruction--boxes">
-            <p><i class="fas fa-mobile-alt"></i> Choose a restaurant</p>
+            <p class="instruction--boxes__number">1</p>
+            <p class="instruction--boxes__text"><i class="fas fa-mobile-alt"></i> Choose a restaurant</p>
         </div>
         <div class="instruction--boxes">
-            <p><i class="fas fa-list-ul"></i> Create your menu</p>
+            <p class="instruction--boxes__number">2</p>
+            <p class="instruction--boxes__text"><i class="fas fa-list-ul"></i> Create your menu</p>
         </div>
         <div class="instruction--boxes">
-            <p><i class="fas fa-store"></i> Go enjoy it at the restaurant</p>
+            <p class="instruction--boxes__number">3</p>
+            <p class="instruction--boxes__text"><i class="fas fa-store"></i> Go enjoy it at the restaurant</p>
         </div>
     </div>
     <section class="restaurants" id="restaurants">
         <h1>Restaurants</h1>
         <article class="restaurants--container">
             <div class="restaurants--container__card">
-                <a href="">
+                <a href="pages-menus/menu-the-full-palette.html">
                     <img src="images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-                    <h1><a href="pages-menus/menu-the-full-palette.html">The Full Palette</a></h1>
+                    <p class="card--title">The Full Palette</p>
                     <p>New York</p>
+                    <p class="card--new">New</p>
                 </a>
+                <p class="card--icon"><i class="far fa-heart"></i></p>
             </div>
         </article>
         <article class="restaurants--container">
             <div class="restaurants--container__card">
-                <a href="">
+                <a href="pages-menus/menu-the-enchanted-plate.html">
                     <img src="images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
-                    <h1><a href="pages-menus/menu-the-enchanted-plate.html">The Enchanted Plate</a></h1>
+                    <p class="card--title">The Enchanted Plate</p>
                     <p>New York</p>
+                    <p class="card--new">New</p>
                 </a>
+                <p class="card--icon"><i class="far fa-heart"></i></p>
             </div>
         </article>
         <article class="restaurants--container">
             <div class="restaurants--container__card">
-                <a href="">
+                <a href="pages-menus/menu-bastille.html">
                     <img src="images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
-                    <h1><a href="pages-menus/menu-bastille.html">Bastille</a></h1>
+                    <p class="card--title">Bastille</p>
                     <p>New York</p>
+                    <p class="card--new">New</p>
                 </a>
+                <p class="card--icon"><i class="far fa-heart"></i></p>
             </div>
         </article>
         <article class="restaurants--container">
             <div class="restaurants--container__card">
-                <a href="">
+                <a href="pages-menus/menu-le-gourmand.html">
                     <img src="images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
-                    <h1><a href="pages-menus/menu-le-gourmand.html">Le Gourmand</a></h1>
+                    <p class="card--title">Le Gourmand</p>
                     <p>New York</p>
+                    <p class="card--new">New</p>
                 </a>
+                <p class="card--icon"><i class="far fa-heart"></i></p>
             </div>
         </article>
     </section>
