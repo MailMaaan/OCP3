@@ -3,6 +3,7 @@
   body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
   }
 
   header {
@@ -13,7 +14,7 @@
   }
 
   header img {
-    width: 20rem;
+    width: 16rem;
     height: auto;
   }
 
@@ -24,6 +25,10 @@
   .location {
     padding: .25rem;
     background-color: rgb(226, 226, 226);
+  }
+
+  .location--text {
+    font-weight: bolder;
   }
 
   .explore {
@@ -44,9 +49,14 @@
     margin: auto;
     width: 50%;
     padding: .25rem;
-    background-color: plum;
+    background-color: rgb(180, 61, 180);
     border-radius: 2rem;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .explore--button p {
+    font-weight: bolder;
+    color: #fff;
   }
 
   .instruction {
@@ -67,7 +77,18 @@
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .instruction--boxes p {
+  .instruction--boxes__number {
+    text-align: center;
+    float: left;
+    color: #fff;
+    width: 1.15rem;
+    border-radius: 1rem;
+    background-color: rgb(180, 61, 180);
+    transform: translate(-50%, 40%);
+  }
+
+  .instruction--boxes__text {
+    font-weight: bolder;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -99,12 +120,30 @@
     object-fit: cover;
   }
 
-  .restaurants--container__card h1 {
+  .restaurants--container__card p {
+    color: black;
     padding-left: 1rem;
   }
 
-  .restaurants--container__card p {
-    padding-left: 1rem;
+  .restaurants--container__card i {
+    color: black;
+    transform: translate(2000%, -600%);
+  }
+
+  .restaurants--container__card i:active {
+    background-color: rgb(180, 61, 180);
+  }
+
+  .card--title {
+    font-weight: bolder;
+  }
+
+  .card--new {
+    background-color: #98ff98;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    width: 3rem;
+    transform: translate(490%, -1000%);
   }
 
   footer {
@@ -119,6 +158,6 @@
   }
 
   footer p {
-    color: white;
+    color: #fff;
   }
 }
