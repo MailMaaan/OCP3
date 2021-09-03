@@ -205,9 +205,9 @@
   }
 
   .restaurants--container__card i {
-    color: black;
-    -webkit-transform: translate(2000%, -600%);
-            transform: translate(2000%, -600%);
+    position: relative;
+    bottom: 5.5rem;
+    left: 90%;
   }
 
   .restaurants--container__card i:active {
@@ -223,8 +223,9 @@
     padding-top: .25rem;
     padding-bottom: .25rem;
     width: 3rem;
-    -webkit-transform: translate(490%, -1000%);
-            transform: translate(490%, -1000%);
+    position: relative;
+    bottom: 16rem;
+    left: 84%;
   }
 
   footer {
@@ -268,22 +269,28 @@
   .heart {
     font-size: 2rem;
   }
+  .menu--section {
+    margin: auto;
+  }
   .menu--section__title1 {
-    width: 18%;
+    width: 5rem;
     border-bottom: 2px solid #98ff98;
   }
   .menu--section__title2 {
-    width: 21%;
+    width: 5rem;
     border-bottom: 2px solid #98ff98;
   }
   .menu--section__title3 {
-    width: 20%;
+    width: 5rem;
     border-bottom: 2px solid #98ff98;
   }
   .menu--section__button {
-    line-height: 50%;
-    padding: 0rem .5rem 0rem .5rem;
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease-in 0s;
+    padding: 0rem;
+    margin: 1rem auto 1rem auto;
+    width: 75%;
     height: auto;
     background-color: #fff;
     border-radius: 1rem;
@@ -291,11 +298,41 @@
             box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .item {
+    margin: 0%;
+    padding-top: .5rem;
+    padding-left: .5rem;
     font-size: 20px;
     font-weight: bolder;
   }
+  .ingredients {
+    font-size: 13px;
+    margin: 0%;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+  }
   .cost {
+    width: 0px;
+    padding-bottom: .5rem;
+    align-self: flex-end;
+    margin: 0%;
     font-weight: bolder;
+    position: relative;
+    bottom: 0%;
+    left: 18%;
+  }
+  .menu--section__icon {
+    width: 0%;
+    align-self: center;
+    background-color: #98ff98;
+    color: white;
+    overflow: hidden;
+  }
+  .menu--section__button:hover .menu--section__icon {
+    position: relative;
+    width: auto;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    opacity: 1;
   }
   .menu--order {
     -webkit-box-align: center;
@@ -439,9 +476,9 @@
     padding-left: 1rem;
   }
   .restaurants--container__card i {
-    color: black;
-    -webkit-transform: translate(2000%, -600%);
-            transform: translate(2000%, -600%);
+    position: relative;
+    bottom: 5.5rem;
+    left: 85%;
   }
   .restaurants--container__card i:active {
     background-color: #b43db4;
@@ -454,8 +491,9 @@
     padding-top: .25rem;
     padding-bottom: .25rem;
     width: 3rem;
-    -webkit-transform: translate(490%, -1000%);
-            transform: translate(490%, -1000%);
+    position: relative;
+    bottom: 16rem;
+    left: 80%;
   }
   footer {
     padding: 2rem;
