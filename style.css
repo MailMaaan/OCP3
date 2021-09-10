@@ -854,6 +854,7 @@
   }
   .menu--section__icon {
     width: 0%;
+    padding: 1.5rem 0;
     align-self: center;
     background-color: #98ff98;
     color: white;
@@ -862,9 +863,14 @@
   .menu--section__button:hover .menu--section__icon {
     position: relative;
     width: auto;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem;
     border-radius: 0rem 1rem 1rem 0rem;
     opacity: 1;
+    transition-duration: 2s;
+  }
+  .menu--section__button:hover .menu--section__icon i {
+    transform: rotate(360deg);
+    transition-duration: 2s;
   }
   .menu--order {
     -webkit-box-align: center;
